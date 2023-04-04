@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body .menu{
+    display: flex;
+    background-image: url(../Assets/fond.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 2%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    border-width: 100%;
+}
+
+body .menu .title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+}
+body .menu .title a{
+    display: flex;
+    margin-bottom: 1%;
+    margin-right: 10%;
+    height: 10%;
+    width: 5%;
+}
+body .menu .title .imghome{
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+
+body .category{
+    display: flex;
+    color: white;
+    width: 80%;
+    flex-direction: column;
+    height: auto;
+    padding-top: 3%;
+}
+
+body .label{
+    font-size: 300%;
+    padding-bottom: 5%;
+    cursor: default;
+}
+body .category .apparence{
+    display: flex;
+    flex-direction: row;
+}
+body .category .imgappar{
+    display: flex;
+    height: 20%;
+    width: 20%;
+    padding-right: 3%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+body .category span{
+    font-size: 75%;
+}
+
+body .category .title{
+    width: 90%;
+}
+body .category .title a{
+    display: flex;
+    justify-content: center;
+}
+body .category .title .imgtitle{
+    width: 50%;
+}

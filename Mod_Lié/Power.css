@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body .menu{
+    display: flex;
+    background-image: url(../Assets/fond.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 2%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    border-width: 100%;
+}
+
+body .menu .title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15%;
+}
+body .menu .title a{
+    display: flex;
+    margin-bottom: 1%;
+    margin-right: 15%;
+    height: 10%;
+    width: 5%;
+}
+body .menu .title .imghome{
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+
+body .category{
+    display: flex;
+    color: white;
+    width: 80%;
+    flex-direction: column;
+    height: auto;
+    padding-top: 3%;
+}
+
+body .category .label{
+    font-size: 300%;
+    padding-bottom: 5%;
+    cursor: default;
+}
+body .category .jutsudescript{
+    font-size: 250%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    cursor: default;
+}
+body .category span{
+    font-size: 75%;
+}
+
+body .category .title{
+    width: 90%;
+}
+body .category .title a{
+    display: flex;
+    justify-content: center;
+}
+body .category .title .imgtitle{
+    width: 50%;
+}
